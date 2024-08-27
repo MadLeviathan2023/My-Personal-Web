@@ -1,0 +1,38 @@
+body{
+    margin: 0px;
+    font-size: 16px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+nav.nav-bar{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 2.5rem;
+}
+
+nav.nav-bar img.logo{
+    height: 100%;
+}
+
+nav.nav-bar ul.options{
+    margin: 0px;
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+    margin-inline: 1rem;
+    font-size: 1rem;
+    height: 100%;
+}
+
+nav.nav-bar ul.options a{
+    display: flex;
+    place-items: center;
+}
+
