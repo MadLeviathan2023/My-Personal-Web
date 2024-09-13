@@ -1,0 +1,32 @@
+main{
+    display: flex;
+    flex-flow: row nowrap;
+    height: calc(100vh - 2.5rem);
+}
+
+main .intro{
+    width: 60%;
+    display: flex;
+    place-items: center;
+    background: url('../images/sample-logo.jpg') no-repeat center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.intro .contents{
+    width: 100%;
+}
+
+.intro .contents > h3, h5{
+    text-align: center;
+}
+
+main .person{
+    width: 40%;
+}
+
+main .person img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
